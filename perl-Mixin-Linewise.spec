@@ -4,7 +4,6 @@
 #
 %define		pdir	Mixin
 %define		pnam	Linewise
-%include	/usr/lib/rpm/macros.perl
 Summary:	Mixin::Linewise - write your linewise code for handles; this does the rest
 #Summary(pl.UTF-8):	
 Name:		perl-Mixin-Linewise
