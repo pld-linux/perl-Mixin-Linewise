@@ -8,7 +8,7 @@ Summary:	Mixin::Linewise - write your linewise code for handles; this does the r
 #Summary(pl.UTF-8):	
 Name:		perl-Mixin-Linewise
 Version:	0.110
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
