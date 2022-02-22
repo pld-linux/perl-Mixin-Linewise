@@ -8,12 +8,13 @@ Summary:	Mixin::Linewise - write your linewise code for handles; this does the r
 #Summary(pl.UTF-8):	
 Name:		perl-Mixin-Linewise
 Version:	0.110
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/R/RJ/RJBS/Mixin-Linewise-%{version}.tar.gz
 # Source0-md5:	466b2b42a0cec2b163729fa581ac4b1d
+Patch0:		version.patch
 URL:		http://search.cpan.org/dist/Mixin-Linewise/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -33,6 +34,7 @@ you.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+%patch0 -p1
 
 %build
 %{__perl} Makefile.PL \

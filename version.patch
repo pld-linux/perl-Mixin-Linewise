@@ -1,0 +1,36 @@
+diff -ur Mixin-Linewise-0.110/lib/Mixin/Linewise/Readers.pm Mixin-Linewise-0.108/lib/Mixin/Linewise/Readers.pm
+--- Mixin-Linewise-0.110/lib/Mixin/Linewise/Readers.pm	2021-06-23 04:27:10.000000000 +0200
++++ Mixin-Linewise-0.108/lib/Mixin/Linewise/Readers.pm	2015-04-08 20:56:09.000000000 +0200
+@@ -1,7 +1,7 @@
+ use warnings;
+ package Mixin::Linewise::Readers 0.110;
+ # ABSTRACT: get linewise readers for strings and filenames
+-
++$Mixin::Linewise::Readers::VERSION = '0.110';
+ use 5.008001; # PerlIO
+ use Carp ();
+ use IO::File;
+diff -ur Mixin-Linewise-0.110/lib/Mixin/Linewise/Writers.pm Mixin-Linewise-0.108/lib/Mixin/Linewise/Writers.pm
+--- Mixin-Linewise-0.110/lib/Mixin/Linewise/Writers.pm	2021-06-23 04:27:10.000000000 +0200
++++ Mixin-Linewise-0.108/lib/Mixin/Linewise/Writers.pm	2015-04-08 20:56:09.000000000 +0200
+@@ -1,7 +1,7 @@
+ use warnings;
+ package Mixin::Linewise::Writers 0.110;
+ # ABSTRACT: get linewise writers for strings and filenames
+-
++$Mixin::Linewise::Writers::VERSION = '0.110';
+ use 5.008001; # PerlIO
+ use Carp ();
+ use IO::File;
+diff -ur Mixin-Linewise-0.110/lib/Mixin/Linewise.pm Mixin-Linewise-0.108/lib/Mixin/Linewise.pm
+--- Mixin-Linewise-0.110/lib/Mixin/Linewise.pm	2021-06-23 04:27:10.000000000 +0200
++++ Mixin-Linewise-0.108/lib/Mixin/Linewise.pm	2015-04-08 20:56:08.000000000 +0200
+@@ -1,7 +1,7 @@
+ use warnings;
+ package Mixin::Linewise 0.110;
+ # ABSTRACT: write your linewise code for handles; this does the rest
+-
++$Mixin::Linewise::VERSION = '0.110';
+ use 5.006;
+ use Carp ();
+ Carp::confess "not meant to be loaded";
