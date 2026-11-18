@@ -7,13 +7,13 @@
 Summary:	Mixin::Linewise - write your linewise code for handles; this does the rest
 Summary(pl.UTF-8):	Mixin::Linewise - wystarczy napisać kod liniowy dla uchwytów; ten moduł zrobi resztę
 Name:		perl-Mixin-Linewise
-Version:	0.110
-Release:	3
+Version:	0.111
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/R/RJ/RJBS/Mixin-Linewise-%{version}.tar.gz
-# Source0-md5:	466b2b42a0cec2b163729fa581ac4b1d
+# Source0-md5:	375f2294ae6e12fcbe2cbae67d8cef23
 Patch0:		version.patch
 URL:		https://metacpan.org/dist/Mixin-Linewise
 BuildRequires:	perl-devel >= 1:5.8.0
